@@ -1,0 +1,93 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+}
+
+
+
+.proyecto {
+    .card-img-overlay {
+            position: absolute;
+            bottom: 0;
+            background: #07031a;
+            background: rgba(7, 3, 26, 0.5);
+            color: #f4f6ff;
+            width: 100%;
+            height: 100%;
+            transition: 0.5s ease;
+            opacity: 0;
+            color: #f4f6ff;
+            font-size: 1.25vw;
+            padding: 1.25vh 1.25vw;
+            text-align: center;           
+    }
+    .card-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #f4f6ff;   
+    }  
+    :hover {
+        opacity: 1;
+    }
+}
+.servicios {
+    .card-title {
+        background:rgba(244, 246, 255, 0.3);
+        position: absolute;
+        opacity: 1;
+        color: #07031a;
+        font-weight: 500;
+        transition: 0.5s ease;
+    }
+   .card-text {
+       font-weight: 500;
+       background-color:rgb(186, 188, 195);
+       opacity: 0;
+       transition: 0.5s ease;
+       color:#07031a;
+    }
+
+    :hover {
+        .card-text {
+            opacity: 1;
+        }
+        .card-title{
+            opacity: 0;
+        }
+    }
+    
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    .servicios {
+        .card-img-overlay .card-title {
+            font-size: 1rem;
+       }
+        .card-text {
+           font-size: 0.6rem;
+       }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .servicios {
+        .card-img-overlay .card-title {
+            font-size: 2rem;
+       }
+        .card-text {
+           font-size: 1.2rem;
+       }
+    }
+    
+}
+
+
