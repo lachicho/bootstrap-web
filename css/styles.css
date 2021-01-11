@@ -55,17 +55,17 @@
   opacity: 0;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .servicios .card-img-overlay .card-title {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .servicios .card-text {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .servicios .card-img-overlay .card-title {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .servicios .card-text {
     font-size: 1.2rem;
